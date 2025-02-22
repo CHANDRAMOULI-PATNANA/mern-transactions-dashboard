@@ -1,0 +1,27 @@
+# MERN Transactions Dashboard
+
+## 📌 Overview  
+MERN Transactions Dashboard is a full-stack web application that fetches transaction data from a third-party API, stores it in a MongoDB database, and provides various APIs for listing, searching, and visualizing transactions. The frontend uses React.js to present the data in tables and charts.
+
+## 🛠 Tech Stack  
+- **Frontend:** React.js, Axios, Chart.js  
+- **Backend:** Node.js, Express.js, MongoDB  
+- **Database:** MongoDB (Mongoose)  
+- **Deployment:** Docker (Optional), Heroku/Vercel  
+
+## 🚀 Features  
+- Fetch and store transaction data from an external API  
+- List transactions with search and pagination  
+- Get statistics on total sales, sold items, and unsold items  
+- Display bar chart for price range analysis  
+- Show pie chart of unique categories  
+- A combined API for fetching all transaction-related data  
+
+## 📂 Project Setup  
+
+### 1️⃣ Backend Setup  
+
+#### Step 1: Clone the Repository  
+```sh
+git clone https://github.com/CHANDRAMOULI-PATNANA/transactions-dashboard.git
+cd mern-transactions-dashboard/backend
